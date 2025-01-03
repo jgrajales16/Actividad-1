@@ -1,0 +1,13 @@
+horas_trabajadas = 48 # Horas trabajadas en la semana
+pago_por_hora = 5000 # Pago por hora en pesos
+porcentaje_retencion = 12.5 / 100 # Porcentaje de retención en la fuente
+# Cálculo del salario bruto
+salario_bruto = horas_trabajadas * pago_por_hora
+# Cálculo de la retención en la fuente
+retencion_fuente = salario_bruto * porcentaje_retencion
+# Cálculo del salario neto
+salario_neto = salario_bruto - retencion_fuente
+# Mostramos los resultados
+print("Salario bruto:", salario_bruto)
+print("Retención en la fuente:", retencion_fuente)
+print("Salario neto:", salario_neto)
